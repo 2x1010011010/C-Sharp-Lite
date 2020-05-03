@@ -111,7 +111,10 @@ namespace CSLight19
                                             RemoveElement(ref map, i, j);
                                             RemoveElement(i, j);
                                             if (playerX == i && playerY == j)
+                                            {
+                                                isGameNotEnd = false;
                                                 GameResult(2);
+                                            }
                                         }
                                     }
                                 }
@@ -123,7 +126,6 @@ namespace CSLight19
                             break;
                     }
                 }
-
 
                 if (isBombPlanted)
                 {

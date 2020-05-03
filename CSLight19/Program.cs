@@ -107,7 +107,8 @@ namespace CSLight19
                                     {
                                         if (i < map.GetLength(0) - 1 && j < map.GetLength(1) - 1)
                                         {
-                                            score += 50;
+                                            if(map[i, j] == wallSymbol)
+                                                score += 50;
                                             RemoveElement(ref map, i, j);
                                             RemoveElement(i, j);
                                             if (playerX == i && playerY == j)

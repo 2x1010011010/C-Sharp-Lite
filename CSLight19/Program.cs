@@ -199,7 +199,6 @@ namespace CSLight19
             Console.SetCursorPosition(elementY, elementX);
             Console.Write(symbol);
             Console.ForegroundColor = tempColor;
-            Console.SetCursorPosition(50, 0);
         }
 
         static void RemoveElement(ref char[,] map, int elementX, int elementY)

@@ -222,11 +222,12 @@ namespace CSLight19
             Console.SetCursorPosition(0, map.GetLength(0) + 1);
             Console.Write($"Score: {scoreValue}\nCoins: {coinsCollected}\nBombs: {bombsLeft}");
             Console.ForegroundColor = tempColor;
-            Console.WriteLine("\n\n Для перемещения используйте стрелки." +
-                "\n Стены можно разрушить бомбой:" +
+            Console.WriteLine("\n\nДля перемещения используйте стрелки." +
+                "\nСтены можно разрушить бомбой:" +
                 "\n[Пробел] - установить бомбу" +
                 "\n[Enter] - Взорвать бомбу" +
-                "\nЗона поражения бомбы 3х3 клетки, игрок попавший под взрыв погибает");
+                "\nЗона поражения бомбы 3х3 клетки, игрок попавший под взрыв погибает" +
+                "\n[Esc] - Выход из игры");
         }
 
         static void GameResult(int result)

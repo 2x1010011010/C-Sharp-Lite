@@ -65,32 +65,28 @@ namespace CSLight19
                             if (map[playerX - 1, playerY] != wallSymbol)
                             {
                                 RemoveElement(playerX, playerY);
-                                playerX--;
-                                DrawElementOnMap(playerX, playerY, playerSymbol, playerColor);
+                                DrawElementOnMap(--playerX, playerY, playerSymbol, playerColor);
                             }
                             break;
                         case ConsoleKey.DownArrow:
                             if (map[playerX + 1, playerY] != wallSymbol)
                             {
                                 RemoveElement(playerX, playerY);
-                                playerX++;
-                                DrawElementOnMap(playerX, playerY, playerSymbol, playerColor);
+                                DrawElementOnMap(++playerX, playerY, playerSymbol, playerColor);
                             }
                             break;
                         case ConsoleKey.LeftArrow:
                             if (map[playerX, playerY - 1] != wallSymbol)
                             {
                                 RemoveElement(playerX, playerY);
-                                playerY--;
-                                DrawElementOnMap(playerX, playerY, playerSymbol, playerColor);
+                                DrawElementOnMap(playerX, --playerY, playerSymbol, playerColor);
                             }
                             break;
                         case ConsoleKey.RightArrow:
                             if (map[playerX, playerY + 1] != wallSymbol)
                             {
                                 RemoveElement(playerX, playerY);
-                                playerY++;
-                                DrawElementOnMap(playerX, playerY, playerSymbol, playerColor);
+                                DrawElementOnMap(playerX, ++playerY, playerSymbol, playerColor);
                             }
                             break;
                         case ConsoleKey.Spacebar:

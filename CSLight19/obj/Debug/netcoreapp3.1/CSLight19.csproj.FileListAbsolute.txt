@@ -1,0 +1,13 @@
+E:\Workspace\CSLight19\bin\Debug\netcoreapp3.1\CSLight19.exe
+E:\Workspace\CSLight19\bin\Debug\netcoreapp3.1\CSLight19.deps.json
+E:\Workspace\CSLight19\bin\Debug\netcoreapp3.1\CSLight19.runtimeconfig.json
+E:\Workspace\CSLight19\bin\Debug\netcoreapp3.1\CSLight19.runtimeconfig.dev.json
+E:\Workspace\CSLight19\bin\Debug\netcoreapp3.1\CSLight19.dll
+E:\Workspace\CSLight19\bin\Debug\netcoreapp3.1\CSLight19.pdb
+E:\Workspace\CSLight19\obj\Debug\netcoreapp3.1\CSLight19.csprojAssemblyReference.cache
+E:\Workspace\CSLight19\obj\Debug\netcoreapp3.1\CSLight19.csproj.CoreCompileInputs.cache
+E:\Workspace\CSLight19\obj\Debug\netcoreapp3.1\CSLight19.AssemblyInfoInputs.cache
+E:\Workspace\CSLight19\obj\Debug\netcoreapp3.1\CSLight19.AssemblyInfo.cs
+E:\Workspace\CSLight19\obj\Debug\netcoreapp3.1\CSLight19.dll
+E:\Workspace\CSLight19\obj\Debug\netcoreapp3.1\CSLight19.pdb
+E:\Workspace\CSLight19\obj\Debug\netcoreapp3.1\CSLight19.genruntimeconfig.cache
